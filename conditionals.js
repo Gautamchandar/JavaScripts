@@ -86,17 +86,43 @@ let login = true;
 
 // getGrade(score)
 
-// If i will use early return 
+// If i will use early return  
 
-function getGrade(score){
-    if(score < 100 && score >= 90) return "A+"
-    else if(score >= 80 && score < 90) return "A"
-    else if(score >= 70 && score < 80) return "B"
-    else if(score >= 60 && score < 70) return "C"
-    else if(score >= 33 && score < 60) return "D"
-    else if( score >= 0 && score < 33) return "Fail"
-    else return "Invaild Marks ❌"
-}
+// function getGrade(score){
+//     if(score < 100 && score >= 90) return "A+"
+//     else if(score >= 80 && score < 90) return "A"
+//     else if(score >= 70 && score < 80) return "B"
+//     else if(score >= 60 && score < 70) return "C"
+//     else if(score >= 33 && score < 60) return "D"
+//     else if( score >= 0 && score < 33) return "Fail"
+//     else return "Invaild Marks ❌"
+// }
 
-let score = getGrade(99)
-console.log(score);
+// let score = getGrade(99)
+// console.log(score);
+
+// "Game of Rock Paper Scissors"
+
+
+// function rockpaperscissors(user, computer){
+//     if(user == "rock" && computer == "scissors"){
+//         console.log("user won")
+//     }
+//     else if (user == "scissors" && computer == "paper"){
+//         console.log("user won")
+//     }
+//     else if(user == "paper" && computer == "rock"){
+//         console.log("user won")
+//     }
+//     else if(user == "rock" && computer == "paper"){
+//         console.log("user loss")
+//     }
+//     else if(user == "paper" && computer == "scissors"){
+//         console.log("user loss")
+//     }
+//     else if(user == "rock" && computer == "paper"){
+//         console.log("user loss")
+//     }
+// }
+
+// rockpaperscissors("rock", "scissors")
