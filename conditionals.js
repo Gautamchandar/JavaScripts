@@ -10,9 +10,20 @@
 
 let login = true;
 
-if(login){
-    console.log("Access Granted")
-}
-else{
-    console.log("Denied")
-}
+// if(login){
+//     console.log("Access Granted")
+// }
+// else{
+//     console.log("Denied")
+// }
+
+// if( false ){
+//     console.log("Good")
+// }
+// else if (null){
+// console.log("null")
+// }
+// else{
+//     console.log("Default")
+// }
+
