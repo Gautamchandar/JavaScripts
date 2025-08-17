@@ -26,3 +26,5 @@ do {
     i++
 } while (i < 20 ); //it aleast one time print value if condition is false
 
+//break and continue is very easy i know already so i am not doing code
+
