@@ -34,24 +34,43 @@
 
 // 5. Print multiplication table of 5
 
-let num = 5;
-for (let i = 1; i <= 10; i++) {
-    console.log(num, "x", i, "=", num*i)
-}
+// let num = 5;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(num, "x", i, "=", num*i)
+// }
 
 // 6. Print the sum of numbers from 1 to 100 using a loop 
 
-let sum = 0
-for (let i = 1; i < 101; i++) {
-    sum = sum + i
-}
-console.log(sum)
+// let sum = 0
+// for (let i = 1; i < 101; i++) {
+//     sum = sum + i
+// }
+// console.log(sum)
 
 // 7. Print all numbers between 1 to 50 that is divisible by 3 
 
-for (let i = 1; i < 51; i++) {
-    if(i % 3 == 0){
-        console.log(i)
-    }
-}
+// for (let i = 1; i < 51; i++) {
+//     if(i % 3 == 0){
+//         console.log(i)
+//     }
+// }
 
+// 8. Ask the user for a number and print whether each number from 1 to that number is even or odd
+
+let user = prompt("Enter any number")
+
+for (let i = 1; i <= user; i++) {
+        if(i % 2 === 0){
+            console.log(`${i} even`)
+        } else{
+            console.log(`${i} odd`)
+        }
+    }
+
+// 9. Count how many numbers between 1 to 100 are divisible by both 3 and 5
+
+for (let i = 0; i < 100; i++) {
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log(i)
+    } 
+}
