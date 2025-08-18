@@ -1,34 +1,57 @@
-// Print number from 1 to 10 using for loop 
+// 1. Print number from 1 to 10 using for loop 
 
-for (let i = 0; i <= 10; i++) {
-    console.log(i);
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
     
+// }
+
+// 2. Print number from 10 to 1 using while loop 
+
+// let i = 10;
+
+// while(i > 0){
+//     console.log(i)
+//     i--
+// }
+
+// 3. Print even number from 1 to 20 using for loop 
+
+// for (let i = 1; i < 21; i++) {
+//     if(i % 2 == 0){
+//         console.log(i)
+//     }
+// }
+
+// 4. Print odd number from 1 to 15 using while loop 
+
+// let i = 1;
+// while(i < 16){
+//     if(i % 2 == 1){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+// 5. Print multiplication table of 5
+
+let num = 5;
+for (let i = 1; i <= 10; i++) {
+    console.log(num, "x", i, "=", num*i)
 }
 
-// Print number from 10 to 1 using while loop 
+// 6. Print the sum of numbers from 1 to 100 using a loop 
 
-let j = 10;
-
-while(j > 0){
-    console.log(j)
-    j--
+let sum = 0
+for (let i = 1; i < 101; i++) {
+    sum = sum + i
 }
+console.log(sum)
 
-// Print even number from 1 to 20 using for loop 
+// 7. Print all numbers between 1 to 50 that is divisible by 3 
 
-for (let i = 1; i < 21; i++) {
-    if(i % 2 == 0){
+for (let i = 1; i < 51; i++) {
+    if(i % 3 == 0){
         console.log(i)
     }
-}
-
-// Print odd number from 1 to 15 using while loop 
-
-let i = 1;
-while(i < 16){
-    if(i % 2 == 1){
-        console.log(i)
-    }
-    i++
 }
 
